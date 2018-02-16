@@ -22,4 +22,7 @@ class ResultsViewController: UIViewController {
         resultLabel!.text = papermsg
         resultImageView!.image = UIImage(named:paperImgName )
     }
+    @IBAction func playAgain () {
+        dismiss(animated: true, completion: nil)
+    }
 }

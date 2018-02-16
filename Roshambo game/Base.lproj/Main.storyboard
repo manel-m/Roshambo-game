@@ -69,6 +69,9 @@
                                 <rect key="frame" x="156" y="398" width="91" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play Again !"/>
+                                <connections>
+                                    <action selector="playAgain" destination="gsQ-mN-BQt" eventType="touchUpInside" id="mFf-23-0NE"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game Results" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOn-qd-JU0">
                                 <rect key="frame" x="145" y="358" width="112" height="21"/>
