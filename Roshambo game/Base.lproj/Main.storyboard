@@ -86,6 +86,7 @@
                         <viewLayoutGuide key="safeArea" id="ws8-t2-PMw"/>
                     </view>
                     <connections>
+                        <outlet property="resultImageView" destination="iFt-6g-NEh" id="4pZ-Pn-Ate"/>
                         <outlet property="resultLabel" destination="IOn-qd-JU0" id="IQD-b8-hR7"/>
                         <outlet property="view" destination="FvI-fm-N4u" id="BoJ-yw-AIo"/>
                     </connections>

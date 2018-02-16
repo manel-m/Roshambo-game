@@ -21,6 +21,7 @@ class ChoiceViewController: UIViewController {
         var controller: ResultsViewController
         controller = self.storyboard?.instantiateViewController(withIdentifier: "ResultsViewController") as! ResultsViewController
         controller.papermsg = "it's paper"
+        controller.paperImgName = "paperResult"
         present(controller, animated: true, completion: nil)
         
     }

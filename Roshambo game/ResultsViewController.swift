@@ -12,10 +12,14 @@ import UIKit
 class ResultsViewController: UIViewController {
     
     @IBOutlet var resultLabel: UILabel!
+    @IBOutlet var resultImageView : UIImageView!
     var papermsg : String = ""
+    var paperImgName : String = ""
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         resultLabel!.text = papermsg
+        resultImageView!.image = UIImage(named:paperImgName )
     }
 }
