@@ -25,6 +25,21 @@ class ChoiceViewController: UIViewController {
         present(controller, animated: true, completion: nil)
         
     }
+    @IBAction func rock (){
+        performSegue(withIdentifier: "rockGame", sender: self)
+        
+        
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "rockGame" {
+            let controller = segue.destination as! ResultsViewController
+            
+            controller.papermsg = "it's rock"
+            controller.paperImgName = "rockResult"
+        }
+    }
+    
 
 
 }
