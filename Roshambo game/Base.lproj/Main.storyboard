@@ -39,6 +39,9 @@
                                 <rect key="frame" x="254" y="245" width="129" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="scissorImage"/>
+                                <connections>
+                                    <segue destination="gsQ-mN-BQt" kind="modal" identifier="scisorGame" id="h50-3Y-hNC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's Play!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYP-Wy-cEQ" userLabel="let'sPlay">
                                 <rect key="frame" x="145" y="414" width="84" height="43"/>
@@ -109,4 +112,7 @@
         <image name="RockImage" width="37" height="32"/>
         <image name="scissorImage" width="37" height="32"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="h50-3Y-hNC"/>
+    </inferredMetricsTieBreakers>
 </document>

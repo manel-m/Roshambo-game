@@ -37,8 +37,18 @@ class ChoiceViewController: UIViewController {
             
             controller.papermsg = "it's rock"
             controller.paperImgName = "rockResult"
+            
         }
+        else {
+            let controller = segue.destination as! ResultsViewController
+            
+            controller.papermsg = "it's scisor"
+            controller.paperImgName = "scissorResult"
+            
+        }
+        
     }
+    
     
 
 
